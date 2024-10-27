@@ -1,11 +1,11 @@
 {% extends 'layout.html' %}
 
 {% block title %}
-chai aur code
+Django Practice
 {% endblock %}
 
 {% block content %}
-<h1 class="text-center mt-4">Welcome to django | TweetHub</h1>
+<h1 class="text-center mt-4">Welcome to Django Crash</h1>
 <a href="{% url 'tweet_create' %}" class="btn btn-primary mb-4">Create a tweet</a>
 <div class="container row gap-3">
   {% for tweet in all_tweets %}
